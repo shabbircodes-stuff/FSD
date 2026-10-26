@@ -288,6 +288,7 @@ select:focus-visible {
   display: block;
   height: 100%;
   background: var(--accent);
+  transition: width 0.2s ease;
 }
 .main-panel {
   width: min(100%, 1000px);
@@ -1250,7 +1251,8 @@ select:focus-visible {
     min-height: 44px;
   }
   .game-progress {
-    display: none;
+    width: 100%;
+    margin: 0 0 12px;
   }
   .main-panel {
     padding: 20px 17px 50px;
